@@ -1,3 +1,4 @@
+All tests completed - close browsers
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -116,9 +117,9 @@ function html_escape(s) {
 <div class='heading'>
 <h1>Unit Test Report</h1>
 <p class='attribute'><strong>Tester : </strong> QA</p>
-<p class='attribute'><strong>Start Time : </strong> 2023-07-24 19:12:22</p>
-<p class='attribute'><strong>Duration : </strong> 0:00:17.347591</p>
-<p class='attribute'><strong>Status : </strong> ALL 2 Pass 2, Passing rate: 100.00%</p>
+<p class='attribute'><strong>Start Time : </strong> 2023-07-25 02:29:08</p>
+<p class='attribute'><strong>Duration : </strong> 0:00:08.106974</p>
+<p class='attribute'><strong>Status : </strong> ALL 4 Pass 4, Passing rate: 100.00%</p>
 
 <p class='description'></p>
 </div>
@@ -127,8 +128,8 @@ function html_escape(s) {
 <p id='show_detail_line'>
 <a class="btn btn-primary" href='javascript:showCase(0)'>Summary{ 100.00% }</a>
 <a class="btn btn-danger" href='javascript:showCase(1)'>Failed{ 0 }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>Passed{ 2 }</a>
-<a class="btn btn-info" href='javascript:showCase(3)'>ALL{ 2 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>Passed{ 4 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>ALL{ 4 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
 <colgroup>
@@ -150,11 +151,11 @@ function html_escape(s) {
 
 <tr class='passClass warning'>
     <td>TestUserListTable</td>
-    <td class="text-center">2</td>
-    <td class="text-center">2</td>
+    <td class="text-center">4</td>
+    <td class="text-center">4</td>
     <td class="text-center">0</td>
     <td class="text-center">0</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c1',2)" class="detail" id='c1'>Detail</a></td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',4)" class="detail" id='c1'>Detail</a></td>
 </tr>
 
 <tr id='pt1_1' class='hiddenRow'>
@@ -177,7 +178,7 @@ pt1_1: Navigating to user list table
 </tr>
 
 <tr id='pt1_2' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_02_add_user</div></td>
+    <td class='passCase'><div class='testcase'>test_02_click_add_user_button</div></td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou
     <button id='btn_pt1_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_2'>pass</button>
@@ -187,7 +188,46 @@ pt1_1: Navigating to user list table
     <div id='div_pt1_2' class="collapse in">
     <pre>
     
-pt1_2: Adding user
+pt1_2: Click on Add User button
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_03_add_user_to_user_list</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_3' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_3'>pass</button>
+    <div id='div_pt1_3' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_3' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_3'>pass</button>
+    <div id='div_pt1_3' class="collapse in">
+    <pre>
+    
+pt1_3: Adding user to table
+Generating user details
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_04_user_exists_in_list</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_4' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_4'>pass</button>
+    <div id='div_pt1_4' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_4' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_4'>pass</button>
+    <div id='div_pt1_4' class="collapse in">
+    <pre>
+    
+pt1_4: Validating user exists in user list
 
 
     </pre>
@@ -197,8 +237,8 @@ pt1_2: Adding user
 
 <tr id='total_row' class="text-center active">
     <td>Total</td>
-    <td>2</td>
-    <td>2</td>
+    <td>4</td>
+    <td>4</td>
     <td>0</td>
     <td>0</td>
     <td>Passing rate: 100.00%</td>
