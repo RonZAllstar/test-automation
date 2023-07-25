@@ -87,7 +87,7 @@ class TestDogBreeds(unittest.TestCase):
         response = self.methods.get_random_dog_image(breed_type, sub_breed)
         self.assertEqual(200, response.status_code, f"ERROR: Failed to get random image for {sub_breed} {breed_type}")
 
-        #   we could also validate imagine name if required
+        #   we could also validate image name if required
 
         return response
 
